@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@200&display=swap");
+:root {
+  --cor-da-bunda-color: #fff;
+  --font-small: 10px;
+  --secondary-color: rgba(0, 85, 255, 0.067);
+}
+body {
+  background-color: var(--cor-da-bunda-color);
+  font-size: 10px;
+  font-family: Roboto;
+}
+footer {
+  background-color: var(--secondary-color);
+}
