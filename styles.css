@@ -28,8 +28,16 @@ header {
   display: flex;
   align-items: center;
 }
+.human-flaws {
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  column-gap: 20px;
+}
 ul {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100%;
   column-gap: 10px;
@@ -48,11 +56,7 @@ li {
   justify-content: center;
   width: 100%;
 }
-.carrousel {
-  min-width: 50%;
-  max-height: 50%;
-  width: 50%;
-}
+
 section {
   display: flex;
   flex-direction: column;
@@ -71,7 +75,7 @@ section {
   text-indent: 5%;
   line-height: 1.5;
   text-align: justify;
-  width: 60%;
+  width: 80%;
 }
 footer {
   background-color: var(--secondary-color);
