@@ -4,76 +4,178 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechBuddies</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>TechBuddies</h1>
+      <div class="title-div">
+        <h1>TechBuddies</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          fill="#023535"
+          class="bi bi-code-slash"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+          />
+        </svg>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Quem somos</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section>
-        <h2>Otimize sua Gestão de Estoque de Alimentos</h2>
-        <p>
-          Bem-vindo ao nosso controlador de estoque especializado em unidades de
-          alimentação! Sabemos que a gestão eficaz de ingredientes e produtos
-          alimentícios é essencial para o sucesso do seu negócio. É por isso que
-          desenvolvemos uma solução sob medida para atender às necessidades
-          exclusivas de restaurantes, lanchonetes, cantinas e estabelecimentos
-          de alimentação em geral.
-        </p>
-        <p>
-          Nossa plataforma intuitiva oferece um conjunto abrangente de
-          ferramentas projetadas para simplificar a gestão de estoque de
-          alimentos, economizar tempo e dinheiro, e garantir que você esteja
-          sempre pronto para atender às demandas dos seus clientes. Com recursos
-          avançados de rastreamento, previsão de estoque e relatórios
-          personalizáveis, você terá o controle total sobre o seu inventário.
-        </p>
-        <p>
-          Não importa o tamanho do seu estabelecimento, nosso controlador de
-          estoque é escalável e adaptável, garantindo que ele atenda às suas
-          necessidades específicas. Além disso, oferecemos suporte excepcional
-          para ajudá-lo a aproveitar ao máximo nossa plataforma.
-        </p>
-        <p>
-          Deixe-nos ajudá-lo a simplificar a gestão de estoque de alimentos e a
-          melhorar a eficiência operacional. Libere mais tempo para se
-          concentrar na qualidade dos seus pratos e no atendimento aos seus
-          clientes, sabendo que a sua gestão de estoque está em boas mãos.
-        </p>
-      </section>
-      <section>
-        <h2>Quem somos</h2>
-        <p>
-          Nossa empresa é um verdadeiro produto da inovação educacional da FATEC
-          Rubens Lara, em Santos. Fundada por ex-alunos desta instituição
-          renomada, nossa jornada começou com o objetivo de encontrar soluções
-          práticas para os desafios do dia a dia, abrangendo uma ampla gama de
-          setores.
-        </p>
-        <p>
-          Nossa dedicação à resolução de problemas se reflete em nossa presença
-          em várias esferas da vida, desde serviços hospitalares até
-          estabelecimentos de alimentação, comércios e além. Desenvolvemos
-          produtos e soluções que melhoram efetivamente a qualidade e a
-          eficiência em diferentes áreas, com o compromisso de tornar o
-          cotidiano das pessoas mais fácil e eficaz.
-        </p>
-        <p>
-          Com um forte foco na inovação, qualidade e versatilidade, continuamos
-          a crescer e evoluir, abraçando desafios diversificados e contribuindo
-          para o avanço das mais variadas indústrias.
-        </p>
-        <p>
-          Nossa história é enraizada na excelência educacional da FATEC Rubens
-          Lara, e nossos produtos e serviços refletem o compromisso com a
-          resolução de problemas em múltiplos setores. Junte-se a nós enquanto
-          continuamos a transformar desafios em oportunidades.
-        </p>
-      </section>
+      <div class="carrousel-and-text">
+        <section>
+          <h2 class="content-title">
+            Domine seu estoque com a ajuda da Inteligência Artificial
+          </h2>
+          <p class="content-paragraph">
+            Se você participa da gerência de uma unidade de alimentação, sabe o
+            quanto a gestão de estoque pode ser desafiadora, principalmente
+            quando se usa de métodos arcaicos como cadernos ou as vezes nem
+            isso... A rotina de um estabelecimento de alimentação é repleta de
+            surpresas, com demandas que variam ao longo do ano, produtos que
+            desaparecem misteriosamente e a pressão constante de atender às
+            necessidades dos seus clientes.
+          </p>
+          <h2>As falhas dos controles humanos tradicionais</h2>
+          <ul class="content-paragraph">
+            <li>
+              Erros humanos: A gestão de estoque manual está sujeita a erros que
+              podem custar caro. Quem nunca se deparou com perdas de produtos
+              por vencimento ou prazos de validade expirados?
+            </li>
+            <li>
+              Desperdício: Produtos estocados em excesso ou em falta podem levar
+              a desperdícios financeiros e insatisfação dos clientes.
+            </li>
+            <li>
+              Estresse e perda de vendas: Quando um item está em falta ou um
+              cliente específico faz um pedido especial, a pressão sobre a
+              equipe de vendas é intensa. Como garantir que você poderá atender
+              a essas demandas de maneira eficiente e lucrativa?
+            </li>
+          </ul>
+          <h2>
+            Apresentamos a solução: Nosso Controlador de Estoque com
+            Inteligência Artificial
+          </h2>
+          <p class="content-paragraph">
+            Nosso produto é a resposta para esses desafios, especialmente
+            projetado para gerentes de negócios de alimentação que desejam
+            alcançar o controle total e a otimização do estoque. Veja como
+            podemos revolucionar a sua gestão de estoque:
+          </p>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="assets/cropped-em_breve.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="assets/cropped-em_breve.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h2>Benefícios para você e o seu negócio:</h2>
+          <ul>
+            <li>
+              Controle preciso: Nossa IA identifica padrões e tendências em seus
+              dados de estoque, permitindo uma gestão precisa, evitando
+              desperdícios e perdas.
+            </li>
+            <li>
+              Prevenção de demandas sazonais: A IA é capaz de prever demandas
+              sazonais, permitindo que você se prepare antecipadamente para
+              atender às necessidades dos seus clientes nas diversas épocas do
+              ano.
+            </li>
+            <li>
+              Localização eficiente de produtos: Nunca mais perca tempo
+              procurando produtos em seu estoque. Nosso sistema ajuda a
+              localizar exatamente onde cada item está armazenado.
+            </li>
+            <li>
+              Predições para vendas: Dê ao seu pessoal de vendas a vantagem de
+              poder fazer previsões precisas sobre a disponibilidade dos
+              produtos. Isso significa que você pode garantir que suas promessas
+              aos clientes sejam cumpridas, aumentando a satisfação e as vendas.
+            </li>
+          </ul>
+          <p class="content-paragraph">
+            Não deixe que os desafios do controle de estoque atrapalhem seu
+            sucesso. Com nosso Controlador de Estoque com Inteligência
+            Artificial, você estará no controle, evitando surpresas
+            desagradáveis e atendendo às necessidades dos seus clientes de forma
+            eficiente.
+          </p>
+          <p class="content-paragraph">
+            Entre em contato conosco hoje mesmo para saber como nossa solução
+            pode ajudar a transformar a sua gestão de estoque. Deixe a
+            tecnologia fazer o trabalho pesado e concentre-se no que você faz de
+            melhor: servir deliciosas refeições aos seus clientes.
+          </p>
+          <p class="content-paragraph">
+            Não perca mais tempo, comece a dominar seu estoque agora mesmo com a
+            ajuda da IA. Seu negócio e seus clientes agradecerão.
+          </p>
+        </section>
+      </div>
     </main>
     <footer>
-      <p>Nome da empresa 2023</p>
+      <p>&copy; 2023 TechBuddies</p>
     </footer>
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
