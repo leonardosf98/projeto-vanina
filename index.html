@@ -1,218 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechBuddies</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechBuddies</title>
+  <link rel="stylesheet" href="reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
       <div class="title-div">
         <h1>TechBuddies</h1>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="50"
-          height="50"
-          fill="#023535"
-          class="bi bi-code-slash"
-          viewBox="0 0 16 16"
-        >
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#023535" class="bi bi-code-slash"
+          viewBox="0 0 16 16">
           <path
-            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
-          />
+            d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
         </svg>
       </div>
-      <nav>
-        <ul class="navigation-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">Quem somos</a></li>
-          <li><a href="contact.html">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div class="carrousel-and-text">
-        <section>
-          <h2 class="content-title">
-            Domine seu estoque com a ajuda da Inteligência Artificial
-          </h2>
-          <p class="content-paragraph">
-            Se você participa da gerência de uma unidade de alimentação, sabe o
-            quanto a gestão de estoque pode ser desafiadora, principalmente
-            quando se usa de métodos arcaicos como cadernos ou as vezes nem
-            isso... A rotina de um estabelecimento de alimentação é repleta de
-            surpresas, com demandas que variam ao longo do ano, produtos que
-            desaparecem misteriosamente e a pressão constante de atender às
-            necessidades dos seus clientes.
-          </p>
-          <h2>As falhas dos controles humanos tradicionais</h2>
-          <div class="human-flaws">
-            <img src="assets/tela-vendas-com-foco-em-saldo.png" alt="" />
-            <ul class="content-paragraph">
-              <li>
-                <span>Erros humanos:</span> A gestão de estoque manual está
-                sujeita a erros que podem custar caro. Quem nunca se deparou com
-                perdas de produtos por vencimento ou prazos de validade
-                expirados?
-              </li>
-              <li>
-                <span> Desperdício:</span> Produtos estocados em excesso ou em
-                falta podem levar a desperdícios financeiros e insatisfação dos
-                clientes.
-              </li>
-              <li>
-                <span>Estresse e perda de vendas:</span> Quando um item está em
-                falta ou um cliente específico faz um pedido especial, a pressão
-                sobre a equipe de vendas é intensa. Como garantir que você
-                poderá atender a essas demandas de maneira eficiente e
-                lucrativa?
-              </li>
-            </ul>
-          </div>
-          <h2>
-            Apresentamos a solução: Nosso Controlador de Estoque com
-            Inteligência Artificial
-          </h2>
-          <p class="content-paragraph">
-            Nosso produto é a resposta para esses desafios, especialmente
-            projetado para gerentes de negócios de alimentação que desejam
-            alcançar o controle total e a otimização do estoque. Veja como
-            podemos revolucionar a sua gestão de estoque:
-          </p>
-          <div
-            id="carouselExampleIndicators"
-            data-bs-ride="carousel"
-            class="carousel slide"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="3"
-                aria-label="Slide 4"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/tela-1.png" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="assets/tela-2.png" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="assets/tela-3.png" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="assets/tela-4.png" class="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <h2>Benefícios para você e o seu negócio:</h2>
-          <ul class="benefits-list">
+    </a>
+    <nav>
+      <ul class="navigation-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Quem somos</a></li>
+        <li><a href="plans.html">Planos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="carrousel-and-text">
+      <section>
+        <h2 class="content-title">
+          Domine seu estoque com a ajuda da Inteligência Artificial
+        </h2>
+        <p class="content-paragraph">
+          Se você participa da gerência de uma unidade de alimentação, sabe o
+          quanto a gestão de estoque pode ser desafiadora, principalmente
+          quando se usa de métodos arcaicos como cadernos ou as vezes nem
+          isso... A rotina de um estabelecimento de alimentação é repleta de
+          surpresas, com demandas que variam ao longo do ano, produtos que
+          desaparecem misteriosamente e a pressão constante de atender às
+          necessidades dos seus clientes.
+        </p>
+        <h2>As falhas dos controles humanos tradicionais</h2>
+        <div class="human-flaws">
+          <img src="assets/tela-celular.jpeg" alt="" />
+          <ul class="content-paragraph">
             <li>
-              <span>Controle preciso:</span> Nossa IA identifica padrões e
-              tendências em seus dados de estoque, permitindo uma gestão
-              precisa, evitando desperdícios e perdas.
+              <span>Erros humanos:</span> A gestão de estoque manual está
+              sujeita a erros que podem custar caro. Quem nunca se deparou com
+              perdas de produtos por vencimento ou prazos de validade
+              expirados?
             </li>
             <li>
-              <span> Prevenção de demandas sazonais:</span> A IA é capaz de
-              prever demandas sazonais, permitindo que você se prepare
-              antecipadamente para atender às necessidades dos seus clientes nas
-              diversas épocas do ano.
+              <span> Desperdício:</span> Produtos estocados em excesso ou em
+              falta podem levar a desperdícios financeiros e insatisfação dos
+              clientes.
             </li>
             <li>
-              <span> Localização eficiente de produtos:</span> Nunca mais perca
-              tempo procurando produtos em seu estoque. Nosso sistema ajuda a
-              localizar exatamente onde cada item está armazenado.
-            </li>
-            <li>
-              <span> Predições para vendas: </span>Dê ao seu pessoal de vendas a
-              vantagem de poder fazer previsões precisas sobre a disponibilidade
-              dos produtos. Isso significa que você pode garantir que suas
-              promessas aos clientes sejam cumpridas, aumentando a satisfação e
-              as vendas.
+              <span>Estresse e perda de vendas:</span> Quando um item está em
+              falta ou um cliente específico faz um pedido especial, a pressão
+              sobre a equipe de vendas é intensa. Como garantir que você
+              poderá atender a essas demandas de maneira eficiente e
+              lucrativa?
             </li>
           </ul>
-          <p class="content-paragraph">
-            Não deixe que os desafios do controle de estoque atrapalhem seu
-            sucesso. Com nosso Controlador de Estoque com Inteligência
-            Artificial, você estará no controle, evitando surpresas
-            desagradáveis e atendendo às necessidades dos seus clientes de forma
-            eficiente.
-          </p>
-          <p class="content-paragraph">
-            Entre em contato conosco hoje mesmo para saber como nossa solução
-            pode ajudar a transformar a sua gestão de estoque. Deixe a
-            tecnologia fazer o trabalho pesado e concentre-se no que você faz de
-            melhor: servir deliciosas refeições aos seus clientes.
-          </p>
-          <p class="content-paragraph">
-            Não perca mais tempo, comece a dominar seu estoque agora mesmo com a
-            ajuda da IA. Seu negócio e seus clientes agradecerão.
-          </p>
-        </section>
-      </div>
-    </main>
-    <footer>
-      <p>&copy; 2023 TechBuddies</p>
-    </footer>
-    <script src="main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        </div>
+        <h2>
+          Apresentamos a solução: Nosso Controlador de Estoque com
+          Inteligência Artificial
+        </h2>
+        <p class="content-paragraph">
+          Nosso produto é a resposta para esses desafios, especialmente
+          projetado para gerentes de negócios de alimentação que desejam
+          alcançar o controle total e a otimização do estoque. Veja como
+          podemos revolucionar a sua gestão de estoque:
+        </p>
+        <div id="carouselExampleIndicators" data-bs-ride="carousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/tela-pc-inicio.jpeg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/tela-2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/tela-3.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="assets/tela-4.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <h2>Benefícios para você e o seu negócio:</h2>
+        <ul class="benefits-list">
+          <li>
+            <span>Controle preciso:</span> Nossa IA identifica padrões e
+            tendências em seus dados de estoque, permitindo uma gestão
+            precisa, evitando desperdícios e perdas.
+          </li>
+          <li>
+            <span> Prevenção de demandas sazonais:</span> A IA é capaz de
+            prever demandas sazonais, permitindo que você se prepare
+            antecipadamente para atender às necessidades dos seus clientes nas
+            diversas épocas do ano.
+          </li>
+          <li>
+            <span> Localização eficiente de produtos:</span> Nunca mais perca
+            tempo procurando produtos em seu estoque. Nosso sistema ajuda a
+            localizar exatamente onde cada item está armazenado.
+          </li>
+          <li>
+            <span> Predições para vendas: </span>Dê ao seu pessoal de vendas a
+            vantagem de poder fazer previsões precisas sobre a disponibilidade
+            dos produtos. Isso significa que você pode garantir que suas
+            promessas aos clientes sejam cumpridas, aumentando a satisfação e
+            as vendas.
+          </li>
+        </ul>
+        <p class="content-paragraph">
+          Não deixe que os desafios do controle de estoque atrapalhem seu
+          sucesso. Com nosso Controlador de Estoque com Inteligência
+          Artificial, você estará no controle, evitando surpresas
+          desagradáveis e atendendo às necessidades dos seus clientes de forma
+          eficiente.
+        </p>
+        <p class="content-paragraph">
+          Entre em contato conosco hoje mesmo para saber como nossa solução
+          pode ajudar a transformar a sua gestão de estoque. Deixe a
+          tecnologia fazer o trabalho pesado e concentre-se no que você faz de
+          melhor: servir deliciosas refeições aos seus clientes.
+        </p>
+        <p class="content-paragraph">
+          Não perca mais tempo, comece a dominar seu estoque agora mesmo com a
+          ajuda da IA. Seu negócio e seus clientes agradecerão.
+        </p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 TechBuddies</p>
+  </footer>
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
