@@ -1,8 +1,0 @@
-- Definir uma empresa
--Definir público alvo
--Definir pauta
--Descrever a persona
--Criar imagem autoral para ilustrar a matéria
--Criar infográfico com dados de pesquisa sobre o assunto
--Criar um vídeo de até 3 minutos com conteúdo específico
--Redigir matéria que reunirá os materiais das outras etapas
